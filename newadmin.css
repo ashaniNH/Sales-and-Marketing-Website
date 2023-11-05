@@ -1,0 +1,62 @@
+/* CSS for the registration form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="radio"],
+input[type="checkbox"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #4a98f7;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #4a98f7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a98f7;
+}
+
+#Register_btn1[disabled] {
+    background-color: #4a98f7;
+    cursor: not-allowed;
+}
+
+/* Custom styling for the "Accept privacy policy terms" checkbox */
+#policy {
+    margin-top: 10px;
+}
